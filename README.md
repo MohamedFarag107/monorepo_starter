@@ -14,7 +14,7 @@ npm install -g win-node-env
 
 ## Server
 
-### Create `.env.development` and `.env.production` root project folder
+### Create `.env.development` and `.env.production` in the root project folder with the following content:
 
 ```bash
 # Application Configuration

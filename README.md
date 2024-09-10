@@ -21,13 +21,6 @@ npm install -g win-node-env
 # Application Configuration
 PORT=
 SERVER_URL=
-ADMIN_EMAIL=
-ADMIN_NAME=
-ADMIN_PASSWORD=
-DB_URI=
-DB_NAME=
-JWT_SECRET=
-JWT_EXPIRE_IN=
 CLIENT_URL=
 
 # JWT Configuration
@@ -41,17 +34,20 @@ MOYASAR_SECRET_TOKEN=
 MOYASAR_URL=
 
 # Database Configuration
-MONGO_URI=
+DB_URI=
+DB_NAME=
 
 # Mailgun Configuration
 MAILGUN_API_KEY=
 
 # Admin Configuration
 ADMIN_EMAIL=
+ADMIN_NAME=
 ADMIN_PASSWORD=
 
 ROOT_EMAIL=
 ROOT_PASSWORD=
+ROOT_NAME=
 ```
 
 ### Install Dependencies

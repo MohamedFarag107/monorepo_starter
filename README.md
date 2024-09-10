@@ -53,13 +53,13 @@ ROOT_PASSWORD=
 ### Install Dependencies
 
 ```bash
-npm install
+yarn
 ```
 
 ### Run Server
 
 ```bash
-npm run dev
+yarn dev
 ```
 
 

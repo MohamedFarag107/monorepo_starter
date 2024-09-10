@@ -1,0 +1,8 @@
+{
+  "name": "@teamhr/libs",
+  "version": "0.0.0",
+  "description": "team hr core and helper functions",
+  "main": "index.ts",
+  "license": "MIT",
+  "private": true
+}

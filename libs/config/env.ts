@@ -1,10 +1,9 @@
 import dotenv from 'dotenv';
 import { cleanEnv, str, email, num } from 'envalid';
 
+import { ENV_FILE_PATH } from './constants';
 
-const envFileName = `.env.${process.env.NODE_ENV}`;
-
-dotenv.config({ path: envFileName });
+dotenv.config({ path: ENV_FILE_PATH });
 
 export const env = cleanEnv(process.env, {
   PORT: num(),

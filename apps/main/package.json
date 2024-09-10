@@ -5,6 +5,10 @@
   "main": "index.ts",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "dev": "NODE_ENV=development ts-node-dev -r tsconfig-paths/register  --respawn --transpile-only src/index.ts",
+    "prod": "NODE_ENV=production ts-node-dev -r tsconfig-paths/register  --respawn --transpile-only src/index.ts"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "express-mongo-sanitize": "^2.2.0",

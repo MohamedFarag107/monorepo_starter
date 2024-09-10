@@ -1,0 +1,11 @@
+{
+  "error": {
+    "not-found": "Not Found",
+    "path-not-found": "The Path Not Found In The Server {{path}}",
+    "invalidEmailOrPassword": "Invalid Email Or Password",
+    "invalidEmail": "Invalid Email",
+    "unauthorized": "Unauthorized Access",
+    "forbidden": "Access Forbidden",
+    "internal-server-error": "error.internal-server-error"
+  }
+}

@@ -1,4 +1,4 @@
-import '@teamhr/libs/config/db';
+import '@teamhr/libs/config/env';
 
 import express from 'express';
 import morgan from 'morgan';

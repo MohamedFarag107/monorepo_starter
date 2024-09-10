@@ -20,11 +20,15 @@ npm install -g win-node-env
 ```bash
 # Application Configuration
 PORT=
+SERVER_URL=
+ADMIN_EMAIL=
+ADMIN_NAME=
+ADMIN_PASSWORD=
+DB_URI=
+DB_NAME=
+JWT_SECRET=
+JWT_EXPIRE_IN=
 CLIENT_URL=
-UPLOADS_PATH=
-APP_URL=
-NODE_ENV=
-SECRET=
 
 # JWT Configuration
 JWT_EXPIRES_IN=
